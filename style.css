@@ -1,0 +1,31 @@
+.container{
+    background-color: lightgreen;
+}
+
+.city{
+color: whiet;
+}
+
+.date{
+    color: white;
+}
+
+.icon{
+    background-color: blue;
+}
+
+.temp{
+    color: white;
+}
+
+.humidity{
+    color: white;
+}
+
+.wind{
+    color: white;
+}
+
+.uv{
+    color: white;
+}
