@@ -25,18 +25,17 @@ $.ajax({
     const winds = response.wind.speed
     console.log("The wind is blowing like you mom at " + winds + " MPH")
 
-    $("#display").append(name);
-    $("#display").append(temp);
-    $("#display").append(humid);
-    $("#display").append(winds);
-
-
-
+    $(".city").append("Your City " + name);
+    $(".temp").append("It's currently " + temp + " outside");
+    $(".humid").append("Current humidity " + humid + "%");
+    $(".winds").append("Current wind speed" + winds);
 });
 
 
 //function to get the current date and time from system
-
+let d = new Date();
+document.getElementById("date").innerHTML = d;
+console.log(d);
 
 
 

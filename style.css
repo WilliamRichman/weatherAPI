@@ -1,31 +1,46 @@
 .container{
-    background-color: lightgreen;
+    background-color: lightgray;
+}
+
+
+#date{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 10px, 10px;
+    text-align: center;
+}
+
+#display{
+    background-color: cadetblue;
 }
 
 .city{
-color: whiet;
-}
+text-align: center;  
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+font-weight: bolder;
+font-style: italic;
+color: black;
+font-size: x-large;
 
-.date{
-    color: white;
-}
-
-.icon{
-    background-color: blue;
 }
 
 .temp{
-    color: white;
+    color: black;
 }
 
-.humidity{
-    color: white;
+.humid{
+    color: black;
 }
 
-.wind{
-    color: white;
+.winds{
+    color: black;
 }
 
 .uv{
-    color: white;
+    color: black;
+}
+
+.icon{
+ background-color: blue;
 }
