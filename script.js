@@ -50,7 +50,7 @@ $("#enter").click(function(){
 })
 
 function uv(long, lat){
-    const uvLink ="http://api.openweathermap.org/data/2.5/uvi/forecast?appid=15976d84b292c4206f0104225b002459&lat="+ lat + "&lon="+long+"&cnt=0" 
+    const uvLink ="https://api.openweathermap.org/data/2.5/uvi/forecast?appid=15976d84b292c4206f0104225b002459&lat="+ lat + "&lon="+long+"&cnt=0" 
     $.ajax({
         url: uvLink,
         method: "GET"
